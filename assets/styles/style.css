@@ -1,12 +1,12 @@
-* {
+/* * {
     margin: 0px;
     padding: 0px;
-}
+} */
 
 body {
     margin: 5px;
     padding: 10px;
-    font-family: sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 h1 {
@@ -17,6 +17,12 @@ h2, h3
  {
     color: lightseagreen;
 }
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+  }
 
 footer {
     padding: 20px;
