@@ -9,7 +9,7 @@ body {
 }
 
 h1 {
-    color: blue;
+    color: rgb(255, 255, 255);
 }
 
 h2, h3
@@ -21,10 +21,12 @@ nav a {
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
+    color: #f1f1f1;
   }
 
 nav a:hover {
     font-weight: bold;
+    color: #ffff;
 }
 
 .profile header {
@@ -48,6 +50,27 @@ nav a:hover {
     padding: 20px;
     margin-top: 20px;
 }
+
+.jumbotron {
+    font-size: 20px;
+    padding: 60px;
+    background-color: #00c8eb;
+    text-align: center;
+    color: white;
+  }
+
+  nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+  }
+
+  nav {
+    margin: auto;
+    background-color: #00a2c6;
+    padding: 5px;
+    text-align: center;
+  }
 
 footer {
     padding: 20px;
