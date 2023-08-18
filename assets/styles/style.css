@@ -2,6 +2,7 @@
     /* border: 2px red solid; */
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
 }
 
 h1 {
-    color: rgb(255, 255, 255);
+    color: rgb(129, 100, 100);
 }
 
 h2, h3
@@ -74,7 +75,19 @@ nav a:hover {
 
   main {
     padding: 20px;
+    overflow: auto;
   }
+
+  #content {
+    float: left;
+    width: 75%;
+  }
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+}
 
 footer {
     padding: 20px;
